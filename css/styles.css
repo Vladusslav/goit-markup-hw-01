@@ -87,6 +87,10 @@ button{
     color: var(--c-brand);
 }
 
+.nav-link:focus{
+    color: var(--c-brand);
+}
+
 .address{
     font-style: normal
 }
