@@ -71,7 +71,7 @@ button{
 }
 
 .logo-accent{
-   color:var(--c-background-light);
+   color:var(--c-primary-light);
 }
 
 .nav-link{
