@@ -9,6 +9,7 @@
 
 /* Global */
 body {
+    color: var(--c-primary-tr);
     font-family: 'Roboto', sans-serif;
     background-color: var(--c-primary-light) ;
 }
@@ -86,16 +87,25 @@ button{
     color: var(--c-brand);
 }
 
-.adress-link{
+.address-link-tel{
     color: var(--c-primary-tr);
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal
 }
 
-.adress-link:hover{
+.address-link{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover{
     color: var(--c-brand)
 }
 
