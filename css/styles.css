@@ -87,10 +87,13 @@ button{
     color: var(--c-brand);
 }
 
+.address{
+    font-style: normal
+}
+
 .address-link-tel{
     color: var(--c-primary-tr);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -99,7 +102,6 @@ button{
 .address-link{
     color: var(--c-primary-tr);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -156,7 +158,6 @@ button{
 }
 
 .team-title{
-    background-color: var(--c-primary-light) ;
     color: var(--c-primary);
     font-size: 20px;
     font-weight: 500;
