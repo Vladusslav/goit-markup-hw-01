@@ -1,0 +1,207 @@
+:root{
+    --c-primary-light: #FFFFFF;
+    --c-primary: #2E2F42;
+    --c-brand: #404BBF;
+    --c-background: #4D5AE5;
+    --c-primary-tr: #434455;
+    --c-background-light: #F4F4FD;
+}
+
+/* Global */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--c-primary-light) ;
+}
+
+body .logo{
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.hero-button {
+    border: none;
+    cursor: pointer;
+    color: var(--c-primary-light);
+    background-color: var(--c-background);
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-button:hover {
+    color: var(--c-primary-light);
+    background-color: var(--c-brand);
+}
+
+/* Header */
+.logo{
+    color: var(--c-primary);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-accent{
+   color:var(--c-background);
+}
+
+.nav-link{
+    color: var(--c-primary) ;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover{
+    color: var(--c-brand);
+}
+
+.adress-link{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.adress-link:hover{
+    color: var(--c-brand)
+}
+
+/* Hero section */
+.hero-section{
+    background-color: var(--c-primary);
+}
+
+.hero-title{
+    color: var(--c-primary-light);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+/* Advantages section */
+.advantage-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantage-text{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Our Team section */
+.team-section{
+    background-color: var(--c-background-light);
+}
+
+.our-team{
+    color: var(--c-primary);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.team-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-text{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Our Portfolio */
+.our-portfolio{
+    color: var(--c-primary);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-title{
+    color: var(--c-primary);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-text{
+    color: var(--c-primary-tr);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer-section{
+    background-color: var(--c-primary);
+}
+
+.footer-logo{
+    color: var(--c-background-light);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.footer-logo-accent{
+    color: var(--c-background);
+}
+
+.footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
