@@ -177,13 +177,13 @@ button{
 }
 
 .our-portfolio{
-    text-align: center;
-    text-transform: capitalize;
     color: var(--c-primary);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .portfolio-title{
