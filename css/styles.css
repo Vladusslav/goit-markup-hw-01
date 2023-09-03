@@ -61,6 +61,10 @@ button{
     background-color: var(--c-brand);
 }
 
+.hero-button:focus{
+    background-color: var(--c-brand);
+}
+
 /* Header */
 .logo{
     color: var(--c-background);
@@ -171,6 +175,10 @@ button{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.our-team-item{
+    background-color: var(--c-primary-light);
 }
 
 /* Our Portfolio */
