@@ -288,6 +288,10 @@ button{
     border-radius: 4px;
 }
 
+.name-job {
+    padding: 32px 0;
+}
+
 /* Our Portfolio */
 .appearance{
     border: 1px solid #e7e9fc;
