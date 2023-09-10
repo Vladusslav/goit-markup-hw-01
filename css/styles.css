@@ -109,11 +109,11 @@ button{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px
 }
 
 .logo-accent{
    color: var(--c-primary);
-   margin-right: 76px
 }
 
 .nav-link{
