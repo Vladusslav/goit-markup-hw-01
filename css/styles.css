@@ -73,6 +73,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+display: block;
 margin-left: auto;
 margin-right: auto;
 }
@@ -97,6 +98,10 @@ margin-right: auto;
 }
 
 /* Header */
+.header{
+    border-bottom: 1px solid #e7e9fc
+}
+
 .header-ineer{
     display: flex;
     align-items: center;
@@ -334,6 +339,7 @@ margin-right: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px ;
+    display: inline-block;
 }
 
 .footer-logo-accent{
