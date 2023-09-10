@@ -7,7 +7,24 @@
     --c-background-light: #F4F4FD;
 }
 
+
 /* Global */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin: 0;
+}
+
 body {
     color: var(--c-primary-tr);
     font-family: 'Roboto', sans-serif;
@@ -22,8 +39,23 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 button{
@@ -31,14 +63,16 @@ button{
 }
 
 .hero-button {
-    border: none;
-    cursor: pointer;
-    color: var(--c-primary-light);
-    background-color: var(--c-background);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+border: none;
+cursor: pointer;
+color: var(--c-primary-light);
+background-color: var(--c-background);
+padding: 16px 32px;
+border-radius: 4px;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 
 .hero-button:hover {
@@ -48,6 +82,10 @@ button{
 
 .hero-button:focus{
     background-color: var(--c-brand);
+}
+
+.advantage-section, .team-section, .portfoli-section{
+    padding: 60px 0;
 }
 
 /* Header */
@@ -102,16 +140,21 @@ button{
 
 /* Hero section */
 .hero-section{
+    padding: 188px 0;
     background-color: var(--c-primary);
 }
 
 .hero-title{
+    max-width: 496px;
+    margin: 0 auto;
+    text-align: center;
     color: var(--c-primary-light);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center
+    text-align: center;
+    margin-bottom: 48px;
 }
 
 /* Advantages section */
@@ -121,6 +164,7 @@ button{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantage-text{
