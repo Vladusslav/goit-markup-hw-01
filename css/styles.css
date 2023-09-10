@@ -73,6 +73,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero-button:hover {
@@ -88,7 +90,7 @@ letter-spacing: 0.04em;
     padding: 60px 0;
 }
 
-.conteiner{
+.container{
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 32px;
@@ -320,6 +322,7 @@ letter-spacing: 0.04em;
 /* Footer */
 .footer-section{
     background-color: var(--c-primary);
+    padding: 100px 0 100px
 }
 
 .footer-logo{
