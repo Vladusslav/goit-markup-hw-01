@@ -80,7 +80,7 @@ button{
     
 }
 
-.header-ineer{
+.container, .header-ineer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -231,6 +231,11 @@ button{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.advantage-iteam{
+    width: calc((100% - 72px) / 4);
 }
 
 /* Our Team section */
